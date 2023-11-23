@@ -1,0 +1,61 @@
+/********************************************************************************/
+/*                           Style of EnsaladillaRusa.html                      */
+/*                            Author: Samuel Avella Pérez                       */
+/*                                    Version: 1.0                              */
+/*                          Comment: a portfolio excersice                      */
+
+* {box-sizing: border-box;} /* indica que el width de cada box será contando el borde hacia andentro*/
+@font-face {
+    font-family: texto;
+    src: url(../RECETA/Fonts/TenorSans-Regular.ttf);
+}
+@font-face {
+    font-family: titulo;
+    src: url(../RECETA/Fonts/LibraSans-Bold.ttf);
+}
+body{font-family: texto;
+    background-image: url(https://i.postimg.cc/YSGF1z3r/71.jpg);}
+#wrapper{background-color: whitesmoke;
+        width: 80%;
+        margin: auto;
+        padding: 2% 6%;}
+h1, h2{font-family: titulo;
+        border-bottom: 2px solid #51001A;
+        margin: auto;
+        margin-bottom: 1.5%;}
+h1{font-size: 230%;
+    text-indent: 0.5em;}
+h2{font-size: 190%;
+    text-indent: 0.5em;
+    padding-bottom: 0.2em;
+    margin-top: 5%;}
+#cita{border-left: 4px solid #51001A;
+    background-color: lightgray;
+    padding: 1% 2%;}
+#periodista{text-align: right;
+            margin-bottom: 0%;
+            font-size: 92%;}
+p{font-size: 110%;}
+#ingredients{text-align: left;
+            margin-left: 3.5em;
+            margin-right: 3.5em;}
+#nutricional{text-align: left;}
+
+/*GESTION DE LA RESPONSABILIDAD*/
+@media screen and (width>=900px){
+    .derecha{float: right;}
+}
+@media only screen and (width<900px){
+    #wrapper{width: 96%;}
+    h1, h2 {width:80%;
+            font-size: 130%;}
+    .derecha{width:60%;
+            clear: all;
+            float: none;
+            padding-left: 3em;}
+    ul{padding-left: 4em;}
+}
+
+@media only screen and (width<600px){
+    h1, h2 {font-size: 110%;}
+}

@@ -1,0 +1,56 @@
+@font-face {
+        font-family: kreepy;
+        src: url(/HALLOWEEN/fonts/Kreepy\ Krawly.ttf);
+}
+body{background-color: black;
+        font-family: kreepy;}
+#escenario{background-image: url(../img/Spooky-haunted-house-on-halloween-night-Graphics-73360008.jpg);
+            width: 1000px;
+            height: 750px;
+            margin: auto;
+            position: relative;}
+#tower{width: 120px;
+        height: 220px;
+        position: absolute;
+        top: 30px;
+        left: 80px;
+        }
+#bats{position: absolute;
+        top: 0px;
+        left: 30px;
+        visibility: hidden;}
+#pumpkin{width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 460px;
+        left: 690px;}
+#spider{position: absolute;
+        top: 460px;
+        left: 690px;
+        visibility: hidden;}
+#house{width: 70px;
+        height: 200px;
+        position: absolute;
+        top: 100px;
+        left: 390px;}
+#jumpscare{width: 100%;
+        height: auto;
+        visibility: hidden;}
+
+
+/*text basic style*/
+#texto{width: 80%;
+        position: absolute;
+        top: 500px;
+        left: 500px;
+        color: white;
+        font-size: 150%;}
+/*text animation style*/
+@keyframes siniestro {
+        from {color: white;}
+        to {color: orange;}
+}
+
+#texto{
+        
+}
