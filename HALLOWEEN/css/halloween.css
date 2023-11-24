@@ -4,13 +4,13 @@
 }
 body{background-color: black;
         font-family: kreepy;}
-#escenario{background-image: url(../img/Spooky-haunted-house-on-halloween-night-Graphics-73360008.jpg);
+#escenario{background-image: url(../img/Spooky-house.jpg);
             width: 1000px;
             height: 750px;
             margin: auto;
             position: relative;}
-#tower{width: 120px;
-        height: 220px;
+#tower{width: 150px;
+        height: 250px;
         position: absolute;
         top: 30px;
         left: 80px;
@@ -19,8 +19,8 @@ body{background-color: black;
         top: 0px;
         left: 30px;
         visibility: hidden;}
-#pumpkin{width: 150px;
-        height: 150px;
+#pumpkin{width: 180px;
+        height: 180px;
         position: absolute;
         top: 460px;
         left: 690px;}
@@ -28,8 +28,8 @@ body{background-color: black;
         top: 460px;
         left: 690px;
         visibility: hidden;}
-#house{width: 70px;
-        height: 200px;
+#house{width: 100px;
+        height: 230px;
         position: absolute;
         top: 100px;
         left: 390px;}
@@ -41,16 +41,16 @@ body{background-color: black;
 /*text basic style*/
 #texto{width: 80%;
         position: absolute;
-        top: 500px;
-        left: 500px;
+        top: 580px;
+        left: 400px;
         color: white;
         font-size: 150%;}
+
 /*text animation style*/
 @keyframes siniestro {
         from {color: white;}
         to {color: orange;}
 }
-
-#texto{
-        
-}
+#texto {
+        animation: siniestro 3s linear infinite;
+    }

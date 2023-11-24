@@ -4,33 +4,33 @@
     <link rel="stylesheet" href="./css/halloween.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="favicon" href="img/picmix.com_1423299.gif" type="gif">
-    <link rel="favicon" href="img/5Gp9.gif" type="gif">
+    <title>Spooky page</title>
+    <link rel="icon" type="image/png" href="./img/halloweenfavicon.png"/>
+    <link rel="favicon" href="./img/halloweenfavicon.png" type="gif">
     <script src="./js/halloween.js"></script>
 </head>
 <body>
     
     <div id="escenario">
         <div id="texto">
-            <p>THAT HOUSE LOOKS FAR...</p>
+            <p>THAT TOWER LOOKS FAR...</p>
             <p>I DONT LIKE ORANGE THINGS</p>
             <p>DO NOT CLICK THE WINDOW</p>
         </div>
         <div id="tower" onmouseover="show('bats'), playAudio('batsSound')" onmouseout="hide('bats'), pauseAudio('batsSound')"></div>
-            <img id="bats" src="img/picmix.com_1423299.gif" alt="bats">
+            <img id="bats" src="./img/bats.gif" alt="bats">
             <audio crontols paused id="batsSound">
-                <source src="sounds/Small Group of Bats Flying Around - QuickSounds.com.mp3">
+                <source src="./sounds/bats.mp3" type="audio/mp3">
             </audio>
         <div id="pumpkin"  onmouseover="show('spider'), playAudio('spidersound')" onmouseout="hide('spider'), pauseAudio('spiderSound')"></div>
-            <img id="spider" src="img/5Gp9.gif" alt="spider">
+            <img id="spider" src="./img/spider.gif" alt="spider">
             <audio crontols paused id="spiderSound">
-                <source src="sounds/spider-squeek-85399.mp3">
+                <source src="./sounds/spider.mp3" type="audio.mp3">
             </audio>
-        <div id="house" onmouseover="show('jumpscare'); playAudio('scream')" onmouseout="hide('jumpscare'); playAudio('scream')"></div>
-            <img id="jumpscare" src="img/mangle_jumpscare_gif_by_geogrill_d9l62xh.gif" alt="jumpscare">
+        <div id="house" onmouseover="show('jumpscare'); playAudio('scream')" onmouseout="hide('jumpscare'); pauseAudio('scream')"></div>
+            <img id="jumpscare" src="./img/mangle_jumpscare.gif" alt="jumpscare">
             <audio id="scream">
-                <source src="sounds/Vídeo sin título ‐ Hecho con Clipchamp.mp3" type="audio/mp3">
+                <source src="./sounds/jumpscare.mp3" type="audio/mp3">
             </audio>
     </div>
 </body>
